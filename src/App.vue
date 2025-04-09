@@ -1,6 +1,8 @@
 <template>
   <div class="app">
     <Tweet :tweet="tweets[0]" />
+    <Tweet :tweet="tweets[1]" />
+    <Tweet :tweet="tweets[2]" />
   </div>
 </template>
 
@@ -119,14 +121,14 @@
     margin-left: 20px;
   }
 
-  .profile {
+  /* .profile {
     width: 50px;
     height: 50px;
     border-radius: 50px;
     margin-right: 10px;
-  }
+  } */
 
-  .name {
+  /* .name {
     font-weight: bold;
     margin-bottom: 0.5em;
     margin-right: 0.3em;
@@ -136,9 +138,9 @@
     color: #536471;
     margin-left: 3px;
     margin-right: 3px;
-  }
+  } */
 
-  .timestamp {
+  /* .timestamp {
     color: #536471;
     font-size: 1.1rem;
   }
@@ -157,14 +159,14 @@
     line-height: 1.6rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-  }
+  } */
 
-  .actions {
+  /* .actions {
     padding: 5px 5px;
     width: 360px;
     display: flex;
     justify-content: space-between;
     color: #536471;
-  }
+  } */
 
 </style>
